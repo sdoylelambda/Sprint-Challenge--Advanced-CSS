@@ -278,11 +278,15 @@ footer {
   border-radius: 10px;
 }
 .btn {
-  border-radius: 15px;
-  width: 200px;
+  display: block;
+  padding-top: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+  text-emphasis: center;
+  width: 120px;
   height: 45px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border: 1px solid #C0C0C0;
   cursor: pointer;
   font-size: 1.8rem;
@@ -304,4 +308,7 @@ footer {
 .btn:hover {
   background: #FFFFFF;
   color: white;
+}
+.fix-spacing {
+  position: relative;
 }
