@@ -132,3 +132,8 @@
     height: 300px;
   }
 }
+@media (max-width: 500px) {
+  .walk-img {
+    display: none;
+  }
+}
