@@ -258,8 +258,9 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images img {
-    height: 300px;
-    width: 300px;
+    max-height: 500px;
+    height: auto;
+    width: 100%;
   }
 }
 .home .visit-planets {
