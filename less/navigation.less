@@ -6,6 +6,10 @@
 .header {
     display: flex;
     flex-direction: row;
+
+    @media @mobile {
+      background-color: white;
+    }
 }
 
 .main-navigation {
@@ -23,6 +27,7 @@
         flex-wrap: wrap;
         justify-content: center;
         padding-top: 10px;
+        background-color: white;
       }
   
       .logo-heading {
@@ -30,6 +35,7 @@
 
         @media @mobile {
           font-size: 3rem;
+         
         }
       }
   
@@ -41,6 +47,7 @@
         @media @mobile {
           width: 100%;
           justify-content: space-around;
+          background-color: white;
         }
         
         
