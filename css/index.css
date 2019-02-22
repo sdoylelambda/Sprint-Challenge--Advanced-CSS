@@ -312,3 +312,13 @@ footer {
 .fix-spacing {
   position: relative;
 }
+@media (max-width: 500px) {
+  .blast {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .launch {
+    display: none;
+  }
+}
