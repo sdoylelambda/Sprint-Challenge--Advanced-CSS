@@ -137,3 +137,11 @@
     display: none;
   }
 }
+.alk-img-t {
+  display: none;
+}
+@media (max-width: 500px) {
+  .alk-img-t {
+    display: block;
+  }
+}
